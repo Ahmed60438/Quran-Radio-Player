@@ -1,43 +1,106 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta name="google-site-verification" content="D35ZaxRnqy5u26HU359lKKZIC2bCUpkjC5pSFuyAk8U" />
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>إذاعة القرآن الكريم</title>
   <meta name="description" content="استمع إلى جميع إذاعات القرآن الكريم حول العالم بث مباشر بجودة عالية."> 
   <meta name="keywords" content="إذاعة القرآن الكريم, بث مباشر قرآن كريم, إذاعات, راديو إسلامية, إذاعة السعودية للقرآن الكريم, إذاعة مصر للقرآن الكريم, إذاعة الشيخ الحصري, إذاعة المنشاوي, إذاعة عبد الباسط, إذاعة العفاسي, إذاعة السديس, تلاوات القرآن, بث مباشر إذاعات القرآن, Quran Radio Live, Holy Quran Broadcast, Islamic Radio Stations, Quran Recitations, Quran Streaming, Quran FM">
   <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(135deg, #0d324d, #7f5a83);
+      color: white;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    h1 {
+      margin-top: 30px;
+      font-size: 2em;
+      color: #fff;
+    }
+    .radios {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: transform 0.3s, background 0.3s;
+      cursor: pointer;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      background: rgba(255, 255, 255, 0.2);
+    }
+    .card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .card h2 {
+      margin: 0;
+      font-size: 1.2em;
+    }
+    .card button {
+      margin-top: 10px;
+      background: #ffd369;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .card button:hover {
+      background: #fff;
+      color: #333;
+    }
+    footer {
+      margin: 40px 0 20px;
+      color: #ccc;
+    }
+  </style>
 </head>
 <body>
   <h1>📻 إذاعة القرآن الكريم</h1>
-  <div class="player">
-    <div class="station" onclick="playStation('https://stream.radiojar.com/8s5u5tpdtwzuv')">
-      إذاعة القرآن الكريم - القاهرة
+  
+  <div class="radios">
+    <div class="card" onclick="location.href='radio1.html'">
+      <img src="https://i.pinimg.com/564x/3a/a1/a1/3aa1a107c9434ca52b42b2dd0ffc896f.jpg" alt="إذاعة السعودية">
+      <h2>إذاعة القرآن الكريم - مكة المكرمة</h2>
+      <button>استمع الآن 🎧</button>
     </div>
-    <div class="station" onclick="playStation('https://stream.radiojar.com/4wqre23fytzuv')">
-      إذاعة القرآن الكريم - مكة المكرمة
+
+    <div class="card" onclick="location.href='radio2.html'">
+      <img src="https://tilawah.net/storage/stations/01JJY6EY9GZWYWX5YBZZY1HMB4.jpg" alt="إذاعة مصر">
+      <h2>إذاعة القرآن الكريم - القاهرة</h2>
+      <button>استمع الآن 🎧</button>
     </div>
-    <div class="station" onclick="playStation('https://webradio.tda.dz/Coran_64K.mp3')">
-      إذاعة القرآن الكريم - الجزائر
+
+    <div class="card" onclick="location.href='radio3.html'">
+      <img src="https://my.radioalgerie.dz/sites/default/files/styles/d02/public/2021-09/coran.png?itok=nPTQCau2" alt="إذاعة المنشاوي">
+      <h2>إذاعة القرآن الكريم - الجزائر</h2>
+      <button>استمع الآن 🎧</button>
     </div>
-    <div class="sound-wave">
-      <span></span><span></span><span></span><span></span><span></span>
+	
+	<div class="card" onclick="location.href='radio4.html'">
+      <img src="https://alqol.com/wp-content/uploads/2018/10/%D9%82%D9%86%D8%A7%D8%A9-%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9.jpg" alt="إذاعة المنشاوي">
+      <h2>إذاعة القرآن الكريم - السعودية</h2>
+      <button>استمع الآن 🎧</button>
     </div>
-    <audio id="audio" controls></audio>
-    <div class="note">إذا لم يعمل البث، جرب متصفحًا آخر أو تحقق من اتصال الإنترنت.</div>
   </div>
 
-  <script>
-    function playStation(url) {
-      const audio = document.getElementById('audio');
-      audio.src = url;
-      audio.play().catch(err => {
-        alert('تعذر تشغيل البث. جرب متصفحًا آخر أو تحقق من الرابط.');
-        console.error(err);
-      });
-    }
-  </script>
+  <footer>جميع الحقوق محفوظة © 2025</footer>
 </body>
 </html>
