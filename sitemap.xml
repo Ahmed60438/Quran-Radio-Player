@@ -43,4 +43,20 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- إذاعة الرقية الشرعية1 -->
+  <url>
+    <loc>https://live.quranradio.gt.tc/radio5.html</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+    <!-- إذاعة الرقية الشرعية2 -->
+  <url>
+    <loc>https://live.quranradio.gt.tc/radio6.html</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
 </urlset>
