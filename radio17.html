@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta name="google-site-verification" content="D35ZaxRnqy5u26HU359lKKZIC2bCUpkjC5pSFuyAk8U" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>إذاعة القرآن الكريم</title>
+  <meta name="description" content="استمع إلى إذاعة الشيخ سعد الغامدي، بث مباشر لتلاوات مميزة من القرآن الكريم بصوته الهادئ والخاشع، على مدار الساعة بجودة عالية.">
+  <meta name="keywords" content="إذاعة سعد الغامدي, بث مباشر سعد الغامدي, تلاوات سعد الغامدي, قرآن كريم, راديو القرآن, Quran Radio, Saad Al Ghamdi, تلاوة خاشعة, صوت هادئ, إذاعة القرآن الكريم السعودية">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(135deg, #0d324d, #7f5a83);
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      margin-top: 30px;
+    }
+
+    .player {
+      margin-top: 50px;
+    }
+
+    .station {
+      background: #ffd369;
+      color: #000;
+      display: inline-block;
+      padding: 10px 25px;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .station:hover {
+      background: #fff;
+      color: #333;
+    }
+
+    .sound-wave {
+      margin: 30px 0;
+    }
+
+    .sound-wave span {
+      display: inline-block;
+      width: 5px;
+      height: 15px;
+      background: #ffd369;
+      margin: 0 2px;
+      animation: wave 1s infinite ease-in-out;
+    }
+
+    .sound-wave span:nth-child(2) { animation-delay: 0.1s; }
+    .sound-wave span:nth-child(3) { animation-delay: 0.2s; }
+    .sound-wave span:nth-child(4) { animation-delay: 0.3s; }
+    .sound-wave span:nth-child(5) { animation-delay: 0.4s; }
+
+    @keyframes wave {
+      0%, 100% { transform: scaleY(1); }
+      50% { transform: scaleY(2); }
+    }
+
+    audio {
+      width: 80%;
+      max-width: 400px;
+    }
+
+    .note {
+      margin-top: 20px;
+      color: #ccc;
+      font-size: 0.9em;
+    }
+
+    /* زر الرجوع */
+    .back-btn {
+      display: inline-block;
+      margin-top: 50px;
+      background: #ffd369;
+      color: #000;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .back-btn:hover {
+      background: #fff;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>📻 إذاعة القرآن الكريم</h1>
+
+  <div class="player">
+    <div class="station" onclick="playStation('https://qurango.net/radio/saad_alghamdi.mp3')">
+      إذاعة الشيخ سعد االغامدي
+    </div>
+    <div class="sound-wave">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <audio id="audio" controls></audio>
+    <div class="note">إذا لم يعمل البث، جرب متصفحًا آخر أو تحقق من اتصال الإنترنت.</div>
+  </div>
+
+  <!-- زر الرجوع إلى الصفحة الرئيسية -->
+  <a href="index.html" class="back-btn">🔙 الرجوع إلى الصفحة الرئيسية</a>
+
+  <script>
+    function playStation(url) {
+      const audio = document.getElementById('audio');
+      audio.src = url;
+      audio.play().catch(err => {
+        alert('تعذر تشغيل البث. جرب متصفحًا آخر أو تحقق من الرابط.');
+        console.error(err);
+      });
+    }
+  </script>
+</body>
+</html>
