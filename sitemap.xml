@@ -51,10 +51,122 @@
     <priority>0.9</priority>
   </url>
 
-    <!-- إذاعة الرقية الشرعية2 -->
+  <!-- إذاعة الرقية الشرعية2 -->
   <url>
     <loc>https://live.quranradio.gt.tc/radio6.html</loc>
     <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- إذاعة المجد للقرآن الكريم -->
+  <url>
+    <loc>https://live.quranradio.gt.tc/radio7.html</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- إذاعة الشيخ محمد صديق المنشاوي -->
+  <url>
+    <loc>https://live.quranradio.gt.tc/radio8.html</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- إذاعة الشيخ مصطفى إسماعيل -->
+  <url>
+    <loc>https://live.quranradio.gt.tc/radio9.html</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- إذاعة الشيخ محمود خليل الحصري -->
+  <url>
+    <loc>https://live.quranradio.gt.tc/radio10.html</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- إذاعة الشيخ محمود علي البنا -->
+  <url>
+    <loc>https://live.quranradio.gt.tc/radio11.html</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- إذاعة الشيخ عبدالباسط عبدالصمد -->
+  <url>
+    <loc>https://live.quranradio.gt.tc/radio12.html</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- إذاعة الشيخ مشاري العفاسي -->
+  <url>
+    <loc>https://live.quranradio.gt.tc/radio13.html</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- إذاعة الشيخ ياسر الدوسري -->
+  <url>
+    <loc>https://live.quranradio.gt.tc/radio14.html</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- إذاعة الشيخ عبدالله عواد الجهني -->
+  <url>
+    <loc>https://live.quranradio.gt.tc/radio15.html</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- إذاعة الشيخ ماهر المعيقلي -->
+  <url>
+    <loc>https://live.quranradio.gt.tc/radio16.html</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- إذاعة الشيخ سعد االغامدي -->
+  <url>
+    <loc>https://live.quranradio.gt.tc/radio17.html</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- إذاعة الشيخ أحمد العجمي -->
+  <url>
+    <loc>https://live.quranradio.gt.tc/radio18.html</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- إذاعة الشيخ فارس عباد -->
+  <url>
+    <loc>https://live.quranradio.gt.tc/radio19.html</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- إذاعة الشيخ عبدالرحمن السديس -->
+  <url>
+    <loc>https://live.quranradio.gt.tc/radio20.html</loc>
+    <lastmod>2025-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
